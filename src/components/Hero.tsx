@@ -8,11 +8,12 @@ export default function Hero() {
       {/* Background photo */}
       <Image
         src="/photos/hero-img7252.jpg"
-        alt="Jinese Wong 在澳洲海崖边眺望大海"
+        alt="Jinese Wong 背对镜头，戴着渔夫帽眺望澳洲海崖与浪花"
         fill
         priority
         sizes="100vw"
         className="object-cover"
+        style={{ objectPosition: "12% 45%" }}
       />
       {/* Rich navy gradient overlay for legible text */}
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/45 to-slate-950/10" />
