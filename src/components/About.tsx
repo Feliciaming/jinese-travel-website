@@ -15,7 +15,7 @@ export default function About() {
         <div className="group relative order-1 aspect-[4/5] w-full overflow-hidden rounded-3xl shadow-xl shadow-slate-900/10 lg:order-none">
           <Image
             src="/photos/about-jinese.jpg"
-            alt="Jinese Wong 在澳洲玛丽亚岛独自旅行的日常"
+            alt="Jinese Wong 在旅途中的日常"
             fill
             sizes="(min-width: 1024px) 40vw, 90vw"
             className="object-cover transition-transform duration-700 group-hover:scale-105"

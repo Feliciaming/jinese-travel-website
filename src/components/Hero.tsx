@@ -7,8 +7,8 @@ export default function Hero() {
     <section id="home" className="relative flex min-h-[100svh] items-end overflow-hidden">
       {/* Background photo */}
       <Image
-        src="/photos/australia-cover.jpg"
-        alt="Jinese Wong 在澳洲塔斯马尼亚山顶张开双臂"
+        src="/photos/hero-img7252.jpg"
+        alt="Jinese Wong 在澳洲海崖边眺望大海"
         fill
         priority
         sizes="100vw"
