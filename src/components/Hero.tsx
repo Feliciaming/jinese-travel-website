@@ -7,15 +7,15 @@ export default function Hero() {
     <section id="home" className="relative flex min-h-[100svh] items-end overflow-hidden">
       {/* Background photo */}
       <Image
-        src="/photos/hero-img7252.jpg"
-        alt="Jinese Wong 背对镜头，站在澳洲海崖步道上眺望大海"
+        src="/photos/hero-img3751.jpg"
+        alt="Jinese Wong 背对镜头，坐在澳洲山顶岩石上眺望心形湖泊"
         fill
         priority
         sizes="100vw"
         className="object-cover"
       />
-      {/* Rich navy gradient overlay for legible text */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/45 to-slate-950/10" />
+      {/* Rich navy gradient overlay — strengthened for legibility against the brighter lake/rock backdrop */}
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/65 to-slate-950/30" />
 
       <div className="relative z-10 mx-auto w-full max-w-8xl px-5 pb-20 pt-40 sm:px-8 sm:pb-28">
         <p className="glass-badge px-4 py-1.5 text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-white">
