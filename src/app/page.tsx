@@ -1,0 +1,27 @@
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Categories from "@/components/Categories";
+import LatestPosts from "@/components/LatestPosts";
+import WorkWithMe from "@/components/WorkWithMe";
+import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
+
+export default function Home() {
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Categories />
+        <LatestPosts />
+        <WorkWithMe />
+      </main>
+      <Footer />
+      <BackToTop />
+      <WhatsAppFloat />
+    </>
+  );
+}

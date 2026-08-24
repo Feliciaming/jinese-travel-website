@@ -1,0 +1,7 @@
+# Raw source assets — already processed into public/photos and public/icons,
+# not needed in the deployed app. Excluding these keeps deploy uploads small.
+PHOTOS
+NOTES
+instagram.png
+whatsapp.png
+xiao hong shu.png
